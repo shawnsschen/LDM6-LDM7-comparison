@@ -56,3 +56,13 @@ def simple_task():
     # But you should also make the script running detached in background
     # and redirecting outputs to /dev/null or some place else.
     run('uptime', pty=False)
+
+def installcpp():
+    """
+    Install C preprocessor.
+    """
+    # install system default C preprocessor.
+    run('yum -y install cpp')
+    run('mv /usr/bin/cpp /usr/bin/cpp-old')
+    # Upgrade the cpp version to 4.8.2
+    run('ln -s /opt/rh/devtoolset-2/root/usr/bin/cpp /usr/bin/')

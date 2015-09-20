@@ -1,0 +1,12 @@
+Info on the 7 hour long NGRID pqinsert file:
+
+ Time_Between_Products.ms.
+ Min.   :    0.0
+ 1st Qu.:    3.0
+ Median :    5.0
+ Mean   :  107.2
+ 3rd Qu.:   14.0
+ Max.   :59342.0
+
+COMPSAC rate: 10 Mbps
+COMPSAC buffer size: 330 MiB
